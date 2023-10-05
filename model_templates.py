@@ -1,12 +1,10 @@
 diagnosis_report_template = """Based on the conversation transcript and the pharmacist's hints provided below, generate a detailed diagnosis note in the following format:
 Diagnosis:
-History of Presenting Illness:
+History of Presenting Illness: Present the history of the presenting illness
 Medications (Prescribed): List current medications and note if they are being continued, or if any new ones have been added.
 Diagnosis Report:
 Symptom statement: List the symptoms mentioned in the transcript
-Diagnosis: 
-History of Presenting Illness:
-Initial treatment: 
+Initial treatment: List the initial treatment the patient has taken
 Medications (Prescribed): List current medications and note if they are being continued, or if any new ones have been added.
 Specific Advice for the Patient: List some specific advice related to their diagnosis and diet to the patient
 
@@ -58,7 +56,7 @@ Now, based on the following conversation and hints, please generate a diagnosis 
 {transcript}
 
 ### Pharmacist's Hint
-{pharmacist_hint}
+{pharmacist_hints}
 """
 
 
@@ -91,3 +89,15 @@ The consultation snippets are as follows:
 {transcript}
 Questions to Ask:
 """
+
+
+chatbot_template = """As a medical chatbot named PremierAI, your task is to answer patient questions about their prescriptions. You should provide complete, scientifically-grounded, and actionable answers to queries, based on the provided recent clinical note.
+Remember to introduce yourself as PremierAI only at the start of the conversation. You can communicate fluently in the patient's language of choice, such as English and Yoruba. If the patient asks a question unrelated to the diagnosis or medications in the clinical note, your response should be, 'I cannot answer this question.'
+
+### Recent Prescription
+{pharmacist_summary}
+
+Let's begin the conversation:
+{history}
+Patient: {input}
+PremierAI:"""
