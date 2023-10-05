@@ -10,5 +10,5 @@ def get_mic_index(name):
 
 
 recognizer = sr.Recognizer()
-device_index = get_mic_index("Ecamm Live Virtual Mic")
-microphone = sr.Microphone(device_index=device_index)
+device_index = get_mic_index("Ecamm Live Virtual Mic") ## previous: 
+microphone = sr.Microphone() ## seems better without: device_index=device_index
