@@ -1,6 +1,9 @@
 from concurrent.futures import ThreadPoolExecutor
 from utils import recognizer, microphone
 from state import state_store
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 def process_audio(recognizer, audio, model, fn):
