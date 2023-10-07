@@ -16,6 +16,7 @@ load_dotenv()
 ## ===========================================================================================
 
 gpt3 = ChatOpenAI(
+    model = "gpt-3.5-turbo",
     temperature=0.2,
     streaming=True,
     verbose=True)

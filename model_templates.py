@@ -1,10 +1,10 @@
 diagnosis_report_template = """Based on the conversation transcript and the pharmacist's hints provided below, generate a detailed diagnosis note in the following format:
-Diagnosis:
-History of Presenting Illness: Present the history of the presenting illness
-Medications (Prescribed): List current medications and note if they are being continued, or if any new ones have been added.
+
 Diagnosis Report:
+
 Symptom statement: List the symptoms mentioned in the transcript
 Initial treatment: List the initial treatment the patient has taken
+History of Presenting Illness: Present the history of the presenting illness
 Medications (Prescribed): List current medications and note if they are being continued, or if any new ones have been added.
 Specific Advice for the Patient: List some specific advice related to their diagnosis and diet to the patient
 
@@ -72,11 +72,37 @@ Please consider the patient's stated symptoms, age, their medical history, and a
 ### This template is for the differential diagnosis
 diffdiag_template = """##DDX model
 Based on the provided transcript snippets from a pharmacist-patient consultation, parse the information to generate a differential diagnosis. The results should be organized as follows:
-Differential Diagnosis: List each possible diagnosis with a model confidence score from 0%-100% (example: [30%]), 100% being most confident.
+Differential Diagnosis: List each possible diagnosis with a model confidence score from 0-100 (example: [30]), 100 being most confident.
 Please consider the patient's stated symptoms, age, their medical history, and any other relevant information presented in the transcript. The consultation snippets are as follows:
+Return 'The information provided is not enough for diagnosis' if the transcrip snippets is not enough for the differential diagnosis.
 
-{transcript}
+### Example
+Conversation Transcript:
+Pharmacist (Ph): “Good day ma, what is troubling you?”
+Patient (Pt): “I have headache, soar throat and cough. I've been taking Panadol for 4 days now as another pharmacist prescribed, but I'm still feeling quite unwell.”
+Ph: “How old are you?”
+Pt: “I am 33.”
+Ph: Any recent health issues or surgeries?
+Pt: No, I'm generally healthy.
+Ph: Describe your headache.
+Pt: It's a throbbing pain around my eyes.
+Ph: Sore throat and cough duration?
+Pt: Sore throat for three days, cough for two.
+Ph: Fever or chills?
+Pt: No fever, but I feel chilled sometimes.
+
 Differential Diagnosis:
+
+1. Mild infection [90]
+2. No infection [60]
+3. Headache [50]
+
+
+Now, based on the following conversation transcript, please generate a differntial diagnos:
+
+### Conversation Transcript
+{transcript}
+
 """
 
 ### This template is for the possible questions the pharmacist can ask
