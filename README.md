@@ -1,2 +1,2 @@
 # PremierHealthAI
-This repo consist the code to the pharmacist personal diagnosis assistant
+This repo consist the code to the FPT AI Challenge for the pharmacist personal diagnosis assistant
