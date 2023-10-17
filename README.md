@@ -1,6 +1,6 @@
 <p  align="center">
 
-<img  src="imgs/diagnosis_assistant.PNG"  alt="PremierHealthAI Landing page"  height=312  width=820/>
+<img  src="imgs/logo.jpeg"  alt="PremierHealthAI Landing page"  height=312  width=820/>
 
 </p> 
 
