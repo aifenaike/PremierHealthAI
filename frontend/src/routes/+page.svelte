@@ -107,7 +107,7 @@
       </div>
       <div>
         <img src="./Alex.jpg" alt="" srcset="">
-        <h4>Ifenaike, Alexander </h4>
+        <h4>Ifenaike, Alexander Oluwasina</h4>
         <p>Machine Learning Engineer.</p>
       </div>
     </div>
