@@ -1,0 +1,102 @@
+Drug Name,Generic Name,Manufacturer,Strength,Dosage Form,Quantity on Hand,Expiration Date,Lot Number,Price per Unit,Notes
+Lipitor,Atorvastatin,Pfizer,10 mg,Tablet,200,12/31/2024,LOT-001,$5.00,Cholesterol medication
+Zoloft,Sertraline,Pfizer,25 mg,Tablet,150,6/30/2025,LOT-002,$8.50,Antidepressant
+Amoxicillin,Amoxicillin,GlaxoSmithKline,500 mg,Capsule,300,9/15/2024,LOT-003,$12.00,Antibiotic
+Ibuprofen,Ibuprofen,Johnson & Johnson,200 mg,Tablet,500,11/30/2023,LOT-004,$4.75,Pain reliever
+Prozac,Fluoxetine,Eli Lilly,20 mg,Capsule,75,2/28/2025,LOT-005,$9.25,Antidepressant
+Plavix,Clopidogrel,Sanofi,75 mg,Tablet,100,10/10/2024,LOT-006,$10.00,Blood thinner
+Tums,Calcium carbonate,GlaxoSmithKline,500 mg,Tablet,120,1/15/2025,LOT-007,$1.50,Antacid
+Prilosec,Omeprazole,AstraZeneca,20 mg,Capsule,180,8/20/2024,LOT-008,$7.50,Acid reducer
+Tylenol,Acetaminophen,Johnson & Johnson,500 mg,Tablet,220,11/1/2024,LOT-009,$6.25,Pain reliever
+Claritin,Loratadine,Bayer,10 mg,Tablet,90,3/25/2025,LOT-010,$8.00,Antihistamine
+Metformin,Metformin,Bristol-Myers Squibb,1000 mg,Tablet,350,7/10/2024,LOT-011,$13.50,Diabetes medication
+Viagra,Sildenafil,Pfizer,50 mg,Tablet,60,12/15/2023,LOT-012,$10.50,Erectile dysfunction treatment
+Robitussin,Guaifenesin,Reckitt Benckiser,200 mg,Liquid,130,4/30/2025,LOT-013,$9.75,Cough medicine
+Cipro,Ciprofloxacin,Bayer,250 mg,Tablet,40,9/1/2024,LOT-014,$5.50,Antibiotic
+Singulair,Montelukast,Merck,10 mg,Tablet,180,5/20/2024,LOT-015,$12.75,Asthma medication
+Allegra,Fexofenadine,Sanofi,180 mg,Tablet,100,6/15/2025,LOT-016,$8.25,Antihistamine
+Ritalin,Methylphenidate,Novartis,10 mg,Tablet,75,4/10/2024,LOT-017,$10.75,ADHD medication
+Lisinopril,Lisinopril,AstraZeneca,20 mg,Tablet,240,7/5/2025,LOT-018,$14.00,Blood pressure medication
+Xanax,Alprazolam,Pfizer,0.5 mg,Tablet,50,2/28/2024,LOT-019,$9.00,Anti-anxiety medication
+Crestor,Rosuvastatin,AstraZeneca,40 mg,Tablet,110,3/15/2024,LOT-020,$6.00,Cholesterol medication
+Vicodin,Hydrocodone,AbbVie,5 mg,Tablet,300,5/20/2025,LOT-021,$13.25,Pain reliever
+Adderall,Amphetamine,Shire,20 mg,Capsule,190,6/30/2024,LOT-022,$8.75,ADHD medication
+Valtrex,Valacyclovir,GlaxoSmithKline,500 mg,Tablet,85,1/10/2024,LOT-023,$10.25,Antiviral medication
+Advil,Ibuprofen,Pfizer,200 mg,Tablet,130,8/15/2025,LOT-024,$11.00,Pain reliever
+Benadryl,Diphenhydramine,Johnson & Johnson,25 mg,Capsule,70,10/5/2024,LOT-025,$9.50,Antihistamine
+Viagra,Sildenafil,Pfizer,100 mg,Tablet,220,7/31/2024,LOT-026,$15.50,Erectile dysfunction treatment
+Cymbalta,Duloxetine,Eli Lilly,30 mg,Capsule,100,10/20/2024,LOT-027,$7.75,Antidepressant
+Celebrex,Celecoxib,Pfizer,200 mg,Capsule,80,11/5/2024,LOT-028,$9.00,Pain and inflammation relief
+Prednisone,Prednisone,Various,10 mg,Tablet,150,3/1/2025,LOT-029,$5.25,Corticosteroid
+Risperdal,Risperidone,Janssen Pharmaceuticals,1 mg,Tablet,70,6/30/2024,LOT-030,$8.50,Antipsychotic
+Metoprolol,Metoprolol,AstraZeneca,25 mg,Tablet,200,12/15/2024,LOT-031,$5.50,Beta-blocker
+Ativan,Lorazepam,Pfizer,2 mg,Tablet,120,1/10/2025,LOT-032,$6.75,Anti-anxiety medication
+Pravachol,Pravastatin,Bristol-Myers Squibb,40 mg,Tablet,50,4/20/2024,LOT-033,$8.00,Cholesterol medication
+Percocet,Oxycodone,Endo Pharmaceuticals,10 mg,Tablet,90,2/25/2025,LOT-034,$9.25,Pain reliever
+Mucinex,Guaifenesin,Reckitt Benckiser,600 mg,Tablet,110,11/15/2024,LOT-035,$6.25,Expectorant
+Clarinex,Desloratadine,Merck,5 mg,Tablet,180,5/15/2025,LOT-036,$8.75,Antihistamine
+Crestor,Rosuvastatin,AstraZeneca,10 mg,Tablet,240,10/30/2024,LOT-037,$10.25,Cholesterol medication
+Lunesta,Eszopiclone,Sunovion Pharmaceuticals,2 mg,Tablet,80,7/5/2024,LOT-038,$7.50,Sleep aid
+Diovan,Valsartan,Novartis,160 mg,Tablet,70,3/20/2025,LOT-039,$11.50,Blood pressure medication
+Flonase,Fluticasone,GlaxoSmithKline,50 mcg,Nasal Spray,90,5/10/2024,LOT-040,$6.75,Nasal corticosteroid
+Wellbutrin,Bupropion,GlaxoSmithKline,150 mg,Tablet,150,7/1/2025,LOT-041,$8.00,Antidepressant
+Levaquin,Levofloxacin,Janssen Pharmaceuticals,750 mg,Tablet,100,9/30/2024,LOT-042,$9.75,Antibiotic
+Vyvanse,Lisdexamfetamine,Shire,50 mg,Capsule,60,4/25/2024,LOT-043,$10.00,ADHD medication
+Seroquel,Quetiapine,AstraZeneca,100 mg,Tablet,200,8/10/2025,LOT-044,$12.25,Antipsychotic
+Lyrica,Pregabalin,Pfizer,75 mg,Capsule,120,12/10/2024,LOT-045,$9.50,Neuropathic pain medication
+Nasonex,Mometasone,Merck,50 mcg,Nasal Spray,180,2/20/2025,LOT-046,$7.00,Nasal corticosteroid
+Concerta,Methylphenidate,Janssen Pharmaceuticals,54 mg,Extended-Release,75,6/1/2024,LOT-047,$11.50,ADHD medication
+Lamictal,Lamotrigine,GlaxoSmithKline,100 mg,Tablet,240,11/30/2024,LOT-048,$8.75,Anticonvulsant
+Percocet,Oxycodone,Endo Pharmaceuticals,5 mg,Tablet,90,1/25/2025,LOT-049,$10.75,Pain reliever
+Allegra-D,Fexofenadine/Pseudoephedrine,Sanofi,60 mg/120 mg,Extended-Release,100,10/15/2024,LOT-050,$11.25,Allergy and congestion relief
+Ritalin,Methylphenidate,Novartis,20 mg,Tablet,60,3/10/2025,LOT-051,$10.00,ADHD medication
+Omeprazole,Omeprazole,AstraZeneca,20 mg,Capsule,180,11/10/2024,LOT-053,$8.50 ,Acid reducer
+Xarelto,Rivaroxaban,Janssen Pharmaceuticals,20 mg,Tablet,120,5/5/2024,LOT-054,$10.25 ,Blood thinner
+Wellbutrin,Bupropion,GlaxoSmithKline,300 mg,Tablet,80,3/20/2025,LOT-055,$9.75 ,Antidepressant
+Augmentin,Amoxicillin/Clavulanic Acid,GlaxoSmithKline,875/125 mg,Tablet,60,9/10/2024,LOT-056,$10.00 ,Antibiotic
+Symbicort,Budesonide/Formoterol,AstraZeneca,160/4.5 mcg,Inhaler,100,8/31/2025,LOT-057,$15.50 ,Asthma medication
+Metoprolol,Metoprolol,AstraZeneca,50 mg,Tablet,90,7/20/2024,LOT-058,$8.00 ,Beta-blocker
+Coumadin,Warfarin,Bristol-Myers Squibb,5 mg,Tablet,150,2/10/2025,LOT-059,$9.00 ,Blood thinner
+Ventolin,Albuterol,GlaxoSmithKline,100 mcg,Inhaler,70,10/31/2024,LOT-060,$7.50 ,Bronchodilator
+Abilify,Aripiprazole,Otsuka Pharmaceutical,10 mg,Tablet,180,4/5/2025,LOT-061,$10.25 ,Antipsychotic
+Avapro,Irbesartan,Sanofi,150 mg,Tablet,60,12/20/2024,LOT-062,$8.75 ,Blood pressure medication
+Lantus,Insulin glargine,Sanofi,100 units/mL,Injection,40,1/31/2025,LOT-063,$9.25 ,Insulin
+Synthroid,Levothyroxine,AbbVie,100 mcg,Tablet,150,6/15/2024,LOT-064,$6.75 ,Thyroid medication
+Cipro,Ciprofloxacin,Bayer,500 mg,Tablet,90,7/10/2025,LOT-065,$12.00 ,Antibiotic
+Norvasc,Amlodipine,Pfizer,5 mg,Tablet,120,8/25/2024,LOT-066,$7.00 ,Blood pressure medication
+Suboxone,Buprenorphine/Naloxone,Indivior,8/2 mg,Film,50,3/15/2025,LOT-067,$8.50 ,Opioid addiction treatment
+Zyprexa,Olanzapine,Eli Lilly,5 mg,Tablet,80,11/30/2024,LOT-068,$8.25 ,Antipsychotic
+Ritalin,Methylphenidate,Novartis,30 mg,Capsule,70,5/30/2025,LOT-069,$9.50 ,ADHD medication
+Seroquel,Quetiapine,AstraZeneca,200 mg,Tablet,100,10/5/2024,LOT-070,$11.75 ,Antipsychotic
+Zofran,Ondansetron,GlaxoSmithKline,4 mg,Tablet,60,4/15/2025,LOT-071,$6.50 ,Anti-nausea medication
+Zocor,Simvastatin,Merck,40 mg,Tablet,110,12/5/2024,LOT-072,$7.25 ,Cholesterol medication
+Januvia,Sitagliptin,Merck,100 mg,Tablet,180,6/20/2025,LOT-073,$8.75 ,Diabetes medication
+Lexapro,Escitalopram,Forest Laboratories,10 mg,Tablet,120,7/1/2024,LOT-074,$7.00 ,Antidepressant
+Toprol XL,Metoprolol,AstraZeneca,25 mg,Extended-Release,70,2/10/2025,LOT-075,$9.00 ,Beta-blocker
+Abilify,Aripiprazole,Otsuka Pharmaceutical,15 mg,Tablet,100,10/15/2024,LOT-076,$10.25 ,Antipsychotic
+Premarin,Conjugated estrogens,Pfizer,0.625 mg,Tablet,80,3/5/2025,LOT-077,$8.50 ,Hormone replacement therapy
+Paracetamol,Acetaminophen,Various,500 mg,Tablet,250,12/15/2024,LOT-078,$4.50 ,Pain reliever
+Panadol,Acetaminophen,GlaxoSmithKline,500 mg,Tablet,200,1/10/2025,LOT-079,$5.00 ,Pain reliever
+Aspirin,Aspirin,Bayer,81 mg,Tablet,300,9/30/2024,LOT-080,$3.00 ,"Pain reliever, blood thinner"
+Advil,Ibuprofen,Pfizer,200 mg,Tablet,180,2/5/2025,LOT-081,$6.50 ,"Pain reliever, anti-inflammatory"
+Tums,Calcium carbonate,GlaxoSmithKline,500 mg,Tablet,150,11/20/2024,LOT-082,$2.50 ,Antacid
+NyQuil,Various,Procter & Gamble,-,Liquid,90,7/10/2025,LOT-083,$7.00 ,Cold and flu medication
+Sudafed,Pseudoephedrine,Johnson & Johnson,30 mg,Tablet,120,10/31/2024,LOT-084,$5.75 ,Decongestant
+Benadryl,Diphenhydramine,Johnson & Johnson,25 mg,Capsule,100,3/15/2025,LOT-085,$4.25 ,Antihistamine
+Pepto-Bismol,Bismuth subsalicylate,Procter & Gamble,262 mg,Tablet,80,12/20/2024,LOT-086,$6.00 ,Digestive relief
+Imodium,Loperamide,Johnson & Johnson,2 mg,Capsule,60,4/1/2025,LOT-087,$5.50 ,Anti-diarrheal
+Robitussin,Guaifenesin,Reckitt Benckiser,100 mg,Liquid,70,7/15/2024,LOT-088,$7.25 ,Cough medicine
+Claritin,Loratadine,Bayer,10 mg,Tablet,100,1/30/2025,LOT-089,$4.75 ,Antihistamine
+Motrin,Ibuprofen,Johnson & Johnson,200 mg,Tablet,110,8/5/2024,LOT-090,$5.25 ,Pain reliever
+NyQuil,Various,Procter & Gamble,-,Liquid,80,2/15/2025,LOT-091,$7.00 ,Cold and flu medication
+Excedrin,Acetaminophen/Aspirin/Caffeine,GlaxoSmithKline,-,Tablet,90,10/20/2024,LOT-092,$6.75 ,Pain reliever
+DayQuil,Various,Procter & Gamble,-,Liquid,70,3/31/2025,LOT-093,$7.00 ,Cold and flu medication
+Tylenol PM,Acetaminophen/Diphenhydramine,Johnson & Johnson,-,Tablet,60,12/10/2024,LOT-094,$8.25 ,"Pain reliever, sleep aid"
+Pepto-Bismol,Bismuth subsalicylate,Procter & Gamble,525 mg,Tablet,80,6/20/2025,LOT-095,$6.50 ,Digestive relief
+Mucinex,Guaifenesin,Reckitt Benckiser,1200 mg,Tablet,90,9/5/2024,LOT-096,$8.00 ,Expectorant
+Dimetapp,Various,Pfizer,-,Liquid,100,4/10/2025,LOT-097,$7.25 ,Cold and allergy medication
+Zyrtec,Cetirizine,Johnson & Johnson,10 mg,Tablet,120,7/25/2024,LOT-098,$5.50 ,Antihistamine
+NyQuil,Various,Procter & Gamble,-,Liquid,80,1/20/2025,LOT-099,$7.00 ,Cold and flu medication
+Advil Cold and Sinus,Ibuprofen/Pseudoephedrine,Pfizer,200/30 mg,Tablet,90,8/10/2024,LOT-100,$6.75 ,Cold and sinus relief
+Gas-X,Simethicone,GlaxoSmithKline,125 mg,Tablet,70,2/20/2025,LOT-101,$5.25 ,Anti-gas relief
+Dramamine,Dimenhydrinate,Pfizer,50 mg,Tablet,60,10/10/2024,LOT-102,$4.75 ,Motion sickness medication
