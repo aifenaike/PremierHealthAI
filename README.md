@@ -46,11 +46,12 @@ In the dynamic world of pharmacy, our cutting-edge AI solution revolutionizes th
 
 ## Project Structure
 
-├── README.md        
-├── frontend
-├── server
-├── database
-└── imgs
+    ├── LICENSE
+    ├── README.md 
+    ├── frontend 
+    ├── server       
+    ├── database
+    └── imgs
 
 
 ## Getting Started
