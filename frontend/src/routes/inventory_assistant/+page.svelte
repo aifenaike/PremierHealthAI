@@ -22,18 +22,19 @@
   }[] = [
     {
       message:
-        "Hello I'm PremierHealthAI bot, your personal knowledge assistant ask me any questions about a specific drug and medication",
+        "Hello I'm PremierHealthAI bot, your personal knowledge assistant ask me any questions about your inventory",
       type: "bot",
     },
   ];
-  PharmacistSocket.emit("patient_mode", true);
+
+  PharmacistSocket.emit("inventory_assistant_mode", true);
 
   interface IContent {
     text: string;
     done: boolean;
   }
 
-  PharmacistSocket.on("patient_message", (content: IContent) => {
+  PharmacistSocket.on("inventory_assistant_message", (content: IContent) => {
     console.log(content);
     if (x[x.length - 1].type === "bot") {
       x = [...x.slice(0, x.length - 1), { message: content.text, type: "bot" }];
@@ -52,18 +53,10 @@
     }
   });
 
-  PharmacistSocket.on("patient_transcript", (text) => {
-    value = text + value
-    if (!streamingMedia) {
-      postMessage()
-    }
-    streamingMedia = true
-  });
-
 
   const postMessage = () => {
     x = [...x, { message: value, type: "pharmacist" }];
-    PharmacistSocket.emit("patient_message", value);
+    PharmacistSocket.emit("inventory_assistant_message", value);
     value = "";
   };
 
@@ -72,15 +65,15 @@
   const toggleRecording = () => {
     if (recording) {
       recording = false;
-      PharmacistSocket.emit("patient_recording", false);
+      PharmacistSocket.emit("inventory_assistant_recording", false);
     } else {
       recording = true;
-      PharmacistSocket.emit("patient_recording", true);
+      PharmacistSocket.emit("inventory_assistant_recording", true);
     }
   };
 
   onDestroy(() => {
-    PharmacistSocket.emit("patient_mode", false);
+    PharmacistSocket.emit("inventory_assistant_mode", false);
   });
 </script>
 
@@ -139,10 +132,12 @@
 
 <style>
   .bg-x {
-    background-image: url("/pharm_bg2.jpg");
+    background-image: url("/pharm_inventory_bg.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-attachment: fixed; /* Optional, it keeps the background fixed while scrolling */
-    background-position: center center; /* Optional, it centers the background image */
+    background-attachment: fixed;
+    background-position: center center; 
   }
 </style>
+
+

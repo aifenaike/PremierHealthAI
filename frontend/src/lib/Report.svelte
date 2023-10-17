@@ -37,17 +37,20 @@
     on:change={setSummary}
     rows={30}
   />
-  <ButtonSet class="flex justify-end mt-2">
-    <!-- <Button
-      on:click={() => {
-        location.reload();
-      }}
-      kind="danger-ghost">Reset</Button
-    > -->
-    <Button icon={DiagramReference} class="block" kind="secondary" on:click={generate}
-      >Diagnose</Button
-    >
-  </ButtonSet>
+  <div class="w-1/3 h-full">
+    <ButtonSet >
+      <Button
+        on:click={() => {
+          location.reload();
+        }}
+        kind="danger">Reset</Button
+      >
+      <Button icon={DiagramReference} class="block" kind="secondary" on:click={generate}
+        >Diagnose</Button
+      >
+      <Button on:click={setSummary} class="block" icon={ArrowRight}>Save</Button>
+    </ButtonSet>
+  </div>
 
   <div />
 </div>

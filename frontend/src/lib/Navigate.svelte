@@ -43,7 +43,12 @@
     <HeaderNavItem
       isSelected={$page.url.pathname === "/assistant" ? true : false}
       href="/assistant"
-      text="AI Assistant"
+      text="Drug Assistant"
+    />
+    <HeaderNavItem
+      isSelected={$page.url.pathname === "/inventory_assistant" ? true : false}
+      href="/inventory_assistant"
+      text="Inventory Assistant"
     />
   </HeaderNav>
 </Header>
