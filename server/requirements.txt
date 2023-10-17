@@ -1,0 +1,11 @@
+langchain==0.0.308
+SpeechRecognition==3.10.0
+PyAudio==0.2.13
+google-cloud-speech
+google-cloud-texttospeech
+python-dotenv
+openai
+python-socketio
+Flask==2.3.2
+duckduckgo-search
+tabulate
