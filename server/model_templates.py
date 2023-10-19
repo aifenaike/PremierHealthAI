@@ -62,7 +62,7 @@ Now, based on the following conversation and hints, please generate a diagnosis 
 
 ### This template is for the differential diagnosis and possible questions the pharmacist can ask
 diffdiag_and_questions_template = """Based on the provided transcript snippets from a pharmacist-patient consultation, please parse the information and generate a differential diagnosis, as well as potential questions the pharmacist could ask to facilitate the diagnosis process. The results should be organized in the following format:
-Differential Diagnosis: List each possible diagnosis with a model confidence score from 0%-100%, 100% being most confident.
+Differential Diagnosis: List each possible diagnosis with a model confidence score from 0-100, 100 being most confident.
 Questions to Ask: Provide a list of relevant questions the pharmacist could ask to further clarify the diagnosis.
 Please consider the patient's stated symptoms, age, their medical history, and any other relevant information presented in the transcript. The consultation snippets are as follows:
 
@@ -107,7 +107,7 @@ The consultation snippets are as follows:
 
 diffdiag_template = """##DDX model
 Based on the provided transcript snippets from a pharmacist-patient consultation, parse the information to generate a differential diagnosis. The results should be organized as follows:
-Differential Diagnosis: List top three possible diagnosis with a model confidence score from 0-100 (example: [30]), 100 being most confident or return this: 'The information provided is not enough for diagnosis' if the transcript snippets is not enough for a differential diagnosis.
+Differential Diagnosis: List withut explaining the top three possible diagnosis with a model confidence score from 0-100 (example: (30)), 100 being most confident or return this, 'The information provided is not enough for diagnosis', if the transcript snippets is not enough for a differential diagnosis.
 Please consider the patient's stated symptoms, their medical history, and any other relevant information presented in the transcript. The consultation snippets are as follows:
 
 {transcript}

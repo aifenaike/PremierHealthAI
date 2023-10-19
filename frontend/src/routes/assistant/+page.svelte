@@ -139,7 +139,7 @@
 
 <style>
   .bg-x {
-    background-image: url("/pharm_bg2.jpg");
+    /* background-image: url("/pharm_bg2.jpg"); */
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed; /* Optional, it keeps the background fixed while scrolling */

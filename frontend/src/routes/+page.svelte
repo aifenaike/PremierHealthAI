@@ -84,7 +84,7 @@
 
 <Content>
   <div class="container">
-    <h1>Welcome to PremierAI</h1>
+    <h1>Welcome to PremierHealth AI</h1>
     <p>Welcome to a new era of pharmaceutical excellence! We are proud to present our innovative AI solution designed to revolutionize the way pharmacists work. With our cutting-edge technology, we're making a significant impact on the pharmacy industry by providing invaluable support to pharmacists in three key areas:</p>
     <ul>
       <li><strong>Diagnosis Assistance</strong>: Our AI solution is your trusted partner in accurate and efficient diagnosis. It assists pharmacists by providing real-time insights and information, enabling them to make well-informed decisions and offer the best care to their patients.</li>
