@@ -17,6 +17,12 @@ In the dynamic world of pharmacy, our cutting-edge AI solution revolutionizes th
 
 </p> 
 
+<p  align="center">
+
+<img  src="imgs/DiagnosisAssistant_withoutArchi.PNG"  alt="DiagnosisAssistant_withoutArchi"  height=312  width=820/>
+
+</p> 
+
 2. **Comprehensive Drug Information**: Access to up-to-date information about drugs is now at your fingertips. Our AI platform empowers pharmacists with a vast database of drug details, including usage guidelines, interactions, side effects, and more, ensuring that you have the most current and reliable information available.
 <p  align="center">
 
@@ -24,12 +30,25 @@ In the dynamic world of pharmacy, our cutting-edge AI solution revolutionizes th
 
 </p> 
 
+<p  align="center">
+
+<img  src="imgs/DrugAssistant_withArchi.PNG"  alt="PremierHealthAI drug page"  height=312  width=820/>
+
+</p> 
+
 3. **Inventory Management**: Say goodbye to inventory management hassles. Our AI system simplifies and streamlines the entire process, allowing you to optimize stock levels, reduce wastage, and ensure that essential medications are always available to serve your patients.
 <p  align="center">
 
-<img  src="imgs/inv_assistant.PNG"  alt="PremierHealthAI inventory page"  height=312  width=820/>
+<img  src="imgs/inv_assistant.PNG"  alt="inv_assistant.PNG"  height=312  width=820/>
 
 </p> 
+
+<p  align="center">
+
+<img  src="imgs/InventoryAssistant_withArchi.PNG"  alt="InventoryAssistant_withArchi.PNG"  height=312  width=820/>
+
+</p> 
+
 
 ## Tools & Technologies used:
 
@@ -125,6 +144,6 @@ These instructions will help you get a copy of the project up and running on you
 ## Meet the Team:
 <p  align="center">
 
-<img  src="imgs/the_team.PNG"  alt="PremierHealthAI Landing page"  height=312  width=820/>
+<img  src="imgs/team.PNG"  alt="PremierHealthAI Landing page"  height=312  width=820/>
 
 </p> 
