@@ -136,7 +136,9 @@ These instructions will help you get a copy of the project up and running on you
 ## References:
 
 - [Langchain Question-Answering guide](https://langchain.readthedocs.io/en/latest/use_cases/question_answering.html)
-
+- [Flask documentation](https://flask.palletsprojects.com/en/3.0.x/)
+- [Svelte documentation](https://svelte.dev/docs/introduction)
+- [Socket.io documentation](https://socket.io/docs/v4/)
 
 ## Acknowledgements:
 
