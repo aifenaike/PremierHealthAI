@@ -140,8 +140,6 @@ These instructions will help you get a copy of the project up and running on you
 - [Svelte documentation](https://svelte.dev/docs/introduction)
 - [Socket.io documentation](https://socket.io/docs/v4/)
 
-## Acknowledgements:
-
 
 ## Meet the Team:
 <p  align="center">
