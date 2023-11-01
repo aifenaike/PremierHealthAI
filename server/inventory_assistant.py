@@ -12,7 +12,7 @@ from langchain.llms import OpenAI
 
 
 inventory_agent = create_csv_agent(OpenAI(temperature=0), 
-                         r"C:/Users/HP/Desktop/PremierHealthAI/database/PremierHealthAI_DB.csv", 
+                         r"database/PremierHealthAI_DB.csv", 
                          verbose=True)
 
 # print(agent.run("How many dosage?"))
