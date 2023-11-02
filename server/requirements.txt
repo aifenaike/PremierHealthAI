@@ -9,4 +9,5 @@ Flask==2.3.2
 duckduckgo-search
 tabulate
 portaudio19-dev
+python3-all-dev
 PyAudio==0.2.13
