@@ -18,6 +18,7 @@ RUN apt-get update
 
 #Install requirements for PyAudio
 RUN apt-get install libasound-dev libportaudio2 libportaudiocpp0 portaudio19-dev -y
+RUN apt-get install -y pulseaudio
 
 #Install PyAudio
 RUN pip install pyaudio
