@@ -17,11 +17,12 @@ RUN pip install -r ./requirements.txt
 RUN apt-get update
 
 #Install requirements for PyAudio
-RUN apt-get install libasound-dev libportaudio2 libportaudiocpp0 portaudio19-dev -y
+RUN apt-get install libasound-dev libportaudio2 libportaudiocpp0 portaudio19-dev libsndfile1 -y
 RUN apt-get install -y pulseaudio
+RUN apt-get install paprefs
 
 # Install package dependencies
-# RUN apt-get install alsa-base alsa-utils libsndfile1-dev
+RUN apt-get install alsa-base alsa-utils 
 
 #Install PyAudio
 RUN pip install pyaudio
