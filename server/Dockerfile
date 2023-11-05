@@ -21,7 +21,7 @@ RUN apt-get install libasound-dev libportaudio2 libportaudiocpp0 portaudio19-dev
 RUN apt-get install -y pulseaudio
 
 # Install alsa package dependencies
-RUN apt-get install alsa-base alsa-utils 
+RUN apt-get -y install alsa-tools
 
 #Install PyAudio
 RUN pip install pyaudio
